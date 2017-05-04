@@ -63,7 +63,6 @@ Sample Case 1:
               ans = "Weird";
             }
             else{
-
                 if(n>=2 && n<5)
                     ans = "Not Weird";
 
