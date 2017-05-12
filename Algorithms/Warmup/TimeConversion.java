@@ -39,10 +39,8 @@ Sample Output
          if(isPM && hh!=12)
              hh+=12;
          if(isPM && hh!=12)
-             hh=0;   
-
-
-         System.out.println(String.format("%02d",hh)+":"+ String.format("%02d",mm) +":"+ String.format("%02d",ss));
+             hh=0;
+          System.out.println(String.format("%02d",hh)+":"+ String.format("%02d",mm) +":"+ String.format("%02d",ss));
 
      }
  }
