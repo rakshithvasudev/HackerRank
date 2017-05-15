@@ -59,8 +59,8 @@ The second kangaroo has a starting location that is ahead (further to the right)
              System.exit(0);
          }
 
-    //Not the best way, help me improve this     
-     while(n<10000){
+    //Not the best way, help me improve this
+     while(n<5000){
          if(x1+(n-1)*v1==x2+(n-1)*v2){
              System.out.print("YES");
               System.exit(0);
