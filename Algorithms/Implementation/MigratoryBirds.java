@@ -78,4 +78,40 @@ The type number that occurs at the highest frequency is type , so we print  as o
 
 
 //option 2
-//
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int max = 0, index =0;
+        int[] elements = new int[n];
+        int[] types ={0,0,0,0,0};
+        for(int types_i=0; types_i < n; types_i++){
+            elements[types_i] = in.nextInt();
+            if(elements[types_i] == 1)
+                types[0]++;
+            if(elements[types_i] == 2)
+                types[1]++;
+            if(elements[types_i] == 3)
+                types[2]++;
+            if(elements[types_i] == 4)
+                types[3]++;
+            if(elements[types_i] == 5)
+                types[4]++;
+        }
+        for(int j=0;j<5;j++){
+            if(types[j]>max){
+                max = types[j];
+                index = j;
+            }
+        }
+        System.out.print(index +1);
+    }
+}
