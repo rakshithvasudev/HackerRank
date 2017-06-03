@@ -41,16 +41,15 @@ The tree in the diagram satisfies the ordering property for a Binary Search Tree
          Node right;
       }
  */
-     boolean checkBST(Node root) {
 
-         if(root.left!=null)
-             if(root.left.data>root.data)
-                 return false;
-
-         if(root.right!=null)
-             if(root.right.data<root.data)
-                 return false;
-
-
-         return true;
-     }
+boolean checkBST(Node root) {
+	return check(root,Integer.MIN_VALUE,Integer.MAX_VALUE);
+}
+boolean check(Node n, int min, int max){
+	if(n==null)
+		return true;
+	if(n.data <= min || n.data >= max)
+		return false;
+	return check(n.left, min, n.data) 
+		&& check(n.right, n.data, max);
+}
