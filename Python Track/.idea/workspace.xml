@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Tuples.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Basic Data Types/Tuples.py">
+      <file leaf-file-name="listComprehension.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basic Data Types/listComprehension.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1431">
-              <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="1608">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,6 +46,7 @@
         <option value="$PROJECT_DIR$/Introduction/Printfunc.py" />
         <option value="$PROJECT_DIR$/Basic Data Types/Lists.py" />
         <option value="$PROJECT_DIR$/Basic Data Types/Tuples.py" />
+        <option value="$PROJECT_DIR$/Basic Data Types/listComprehension.py" />
       </list>
     </option>
   </component>
@@ -313,7 +314,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="3856" height="2098" extended-state="0" />
+    <frame x="-6" y="0" width="3856" height="2098" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -423,7 +424,15 @@
     <entry file="file://$PROJECT_DIR$/Basic Data Types/Tuples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1431">
-          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Data Types/listComprehension.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1608">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
