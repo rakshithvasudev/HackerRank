@@ -55,3 +55,10 @@ This form is similar to the simple form of list comprehension, but it evaluates 
 [0, 3, 6, 9]
 '''
 
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+
+    print([[l,m,o] for l in range(0,x+1) for m in range(0,y+1) for o in range(0,z+1) if l+m+o!=n])
