@@ -12,11 +12,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Loops.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Introduction/Loops.py">
+      <file leaf-file-name="Function.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Introduction/Function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1537">
-              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="1474">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,6 +39,7 @@
         <option value="$PROJECT_DIR$/Introduction/ArithOperators.py" />
         <option value="$PROJECT_DIR$/Introduction/Division.py" />
         <option value="$PROJECT_DIR$/Introduction/Loops.py" />
+        <option value="$PROJECT_DIR$/Introduction/Function.py" />
       </list>
     </option>
   </component>
@@ -270,7 +271,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="-14" width="3856" height="2098" extended-state="0" />
+    <frame x="-14" y="-14" width="3856" height="2098" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -349,6 +350,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1537">
           <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction/Function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
