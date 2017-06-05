@@ -12,11 +12,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ArithOperators.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArithOperators.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Introduction/ArithOperators.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1608">
               <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Division.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Introduction/Division.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1325">
+              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -37,6 +47,7 @@
         <option value="$PROJECT_DIR$/HelloWorld.py" />
         <option value="$PROJECT_DIR$/ifElse.py" />
         <option value="$PROJECT_DIR$/Introduction/ArithOperators.py" />
+        <option value="$PROJECT_DIR$/Introduction/Division.py" />
       </list>
     </option>
   </component>
@@ -331,6 +342,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1608">
           <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction/Division.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding />
         </state>
       </provider>
