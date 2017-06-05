@@ -44,3 +44,16 @@ Sample Output
 [9, 5, 1]
 '''
 
+if __name__ == '__main__':
+    n = int(input())
+    l = []
+    for x in range(0, n):
+        func = input().strip().split()
+        if func[0]=="insert":
+            eval("l"+"."+func[0]+"("+func[1]+","+func[2]+")")
+        elif func[0]=="remove" or func[0]=="append":
+             eval("l"+"."+func[0]+"("+func[1]+")")
+        elif func[0]=="sort" or func[0]=="pop" or func[0]== "reverse":
+             eval("l"+"."+func[0]+"("+")")
+        elif func[0]=="print":
+             eval(func[0]+"("+"l"+")")
