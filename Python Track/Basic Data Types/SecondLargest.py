@@ -20,6 +20,7 @@ Sample Output
 5
 '''
 
+# not the best way
 if __name__ == '__main__':
     n = int(input())
     arr = map(int, input().split())
@@ -31,3 +32,12 @@ if __name__ == '__main__':
         i += 1
 
     print(arr[i])
+
+# optimal way
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    v = max(arr)
+    while v == max(arr):
+        arr.remove(max(arr))
+    print(max(arr))
