@@ -76,3 +76,18 @@ if __name__ == '__main__':
 
     for name in sortedNames:
         print(name)
+
+
+# option 2
+if __name__ == '__main__':
+    students = []
+    sortedNames = []
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        students.append([name, score])
+    requiredScore = list(set(score for name, score in students))
+    requiredScore.sort()
+    requiredScore = requiredScore[1]
+    print("\n".join(sorted([names for names, score in students if score == requiredScore])))
+
