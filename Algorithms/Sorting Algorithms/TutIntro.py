@@ -43,7 +43,7 @@ Explanation
 
 
 searchElement = int(input().strip())
-size = int(input())
+_ = int(input())
 numbers = input().split(" ")
 numbers = list(map(int,numbers))
 
@@ -69,3 +69,18 @@ def binSearch(arr,ele,low,high):
     
 print(binSearch(numbers,searchElement,0,len(numbers)-1))
  
+
+
+'''
+Non optimal solution
+'''
+
+searchElement = int(input().strip())
+size = int(input())
+numbers = input().split(" ")
+numbersList = list(map(int,numbers))
+
+for index in range(len(numbersList)):
+    if numbersList[index] == searchElement:
+         print(index)
+         break
