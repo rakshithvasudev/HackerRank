@@ -61,6 +61,7 @@ num_ele = int(input().strip())
 elements = input().strip().split()
 elements = list(map(int,elements))
 sum = 0
+mode_map={}
 
 for num in elements:
     sum += num
@@ -77,4 +78,10 @@ if num_ele % 2 == 0:
     mid_num2 = mid_num+0.5
     print((int(elements[int(mid_num1)])+int(elements[int(mid_num2)]))/2)
 
+max_number = 0
     
+for current_number in elements:
+    if elements.count(current_number) > max_number:
+        max_number = current_number
+
+print(max_number)
