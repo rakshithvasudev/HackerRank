@@ -41,3 +41,17 @@ And then print our result to a scale of  decimal place () on a new line.
 
 '''
 
+N = int(input())
+list1 = input().strip().split()
+list1 = list(map(int,list1))
+list2 = input().strip().split()
+list2 = list(map(int,list2))
+
+sum_ele = 0
+sum_dr = 0
+for index in range(len(list1)):
+    sum_ele += list1[index]*list2[index]
+    sum_dr += list2[index]
+    
+print(sum_ele/sum_dr)    
+    
