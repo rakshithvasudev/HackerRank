@@ -53,5 +53,5 @@ for index in range(len(list1)):
     sum_ele += list1[index]*list2[index]
     sum_dr += list2[index]
     
-print(sum_ele/sum_dr)    
+print(round(sum_ele/sum_dr,1))    
     
