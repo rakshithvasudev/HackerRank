@@ -30,4 +30,4 @@ def reverseWords(arr):
 
 sample = ['c','l','e','a','r',' ','i','s',' ','f','u','n']  # must return ['f', 'u', 'n', ' ', 'i', 's', ' ', 'c', 'l', 'e', 'a', 'r']
 reversed_all = reverseinplace(sample)
-print(reverseWords(reversed_all))
+print((reversed_all))
